@@ -21,6 +21,6 @@ BTN_CADASTRAR.addEventListener('click', function(){
     BTN_CADASTRAR.classList.remove('btn-outline-dark');
     BTN_CADASTRAR.classList.add('btn-dark');
     BTN_LISTAR.classList.remove('btn-dark');
-    BTN_LISTAR.classList.add('btn-outline-dark');
+    BTN_LISTAR.classList.add('btn-outline-dark' );
 
 });
