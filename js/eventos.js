@@ -1,7 +1,7 @@
-const BTN_CADASTRAR = document.grtElementById('btn-cadastrar');
-const BTN_LISTAR = document.grtElementById('btn-listar');
-const SECTION_CADASTRAR = document.grtElementById('section-cadastrar');
-const SECTION_LISTAR = document.grtElementById('section-listar');
+const BTN_CADASTRAR = document.getElementById('btn-cadastrar');
+const BTN_LISTAR = document.getElementById('btn-listar');
+const SECTION_CADASTRAR = document.getElementById('section-cadastrar');
+const SECTION_LISTAR = document.getElementById('section-listar');
 
 BTN_LISTAR.addEventListener('click', function(){
   SECTION_CADASTRAR.style.display = 'none';
